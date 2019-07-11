@@ -1,0 +1,594 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:react-native-onesignal] /home/monresto/Bureau/Acidlabs/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-gesture-handler] /home/monresto/Bureau/Acidlabs/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.59.9] /home/monresto/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/e7adbd1604207066d008d1551e1f5ba5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6f78ab208b4adf09ed2ff2755bceb3c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:2:1-107:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d18ebf5b370dfb20fdf6b2bb7ab12a9a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/64a05cd325f5533d89381c7e65b3d974/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2d81c7d439b9f8f06b9c372ceff74594/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f1e68a9e8e9667679b0a8e8d8abba0af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/bab23077f8146a8cc611afbf18e878eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c8ee77ceb60abf5ae0c07c67a733a50/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/790dd66558e1a96975446f460c0948ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/394a544de6cf689b397214101fadfdb3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/fd7bb8cc13e9b3715f53ab21e41a7de9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bf67959ab95bef09205bac2420d7c20e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2df7c96cb88bc23868857fd14397b654/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7912f513f7dd21567aa327355634d9c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d623fc3d0107c757abf077747c22344f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2e7e9fde5e8887d2adf666fe69c52061/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8fdb5220af52c8145a09350cf4fdf068/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7f7a1c487dd4b2aa778573208f7a8fa7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c364ae57cd22622e6436578db8f3a36e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8897f1a0f40562cc9645e473d3f36a3a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b302255c9d285c19dbb3b8010932e6f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/172e7c6d179a6edd15f848e29b69e835/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5ca4d3ad0bf0c7f49c63bb86d4afdd3d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b8aafa3d4c981f201785003cdfd532f8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0f7581c53473d1a9392f07754807e444/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b7070e544a4e540c8438493f2bd4aae3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/aa191d6605d3c525b96050e6c81f1032/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/6e417a0e8b067e97df8bcf654d5bc463/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/eace9ad272091062627b74e9732c153c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/749ae64c860e3dc4802c64eab60fcc70/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/5fd71a09403fc18a86404c064816676c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ea8dca206e1b2a1f8f8d6f89a11c7f8b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/f1d13a379b0a918df7146056382a8b07/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/d014f58f761dd0f82d5e3d1b94c0e69a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/059adda9079252954ff3d88c143e9f72/AndroidManifest.xml:17:1-29:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/58e6eff1784b6a3c75b13ac05267bc37/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/72c75b77106ed32a328efeb4cb819269/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/0aa528d2617e2debf7755db9bd66305d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/543f83c8d8e1f06aa0ca52966f40dd7e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/29be3bc6a36ad90c73a5dbee2cf1b509/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61b6d1a52ea01908e6ccf81d9bf4d424/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/035e1211a3d5bb3b1d40255a5c5d7628/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/e2dc62073a9866f3805cc33fdf50555a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/884a69573e262d41e39aad1da51ac839/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/65ed5294b2bde2fe0c881385d191cf87/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:2:3-25
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:2:3-25
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:17:5-67
+MERGED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:17:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:5:1-76
+	android:name
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:5:18-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:6:1-74
+	android:name
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:6:18-72
+application
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:9:5-28:19
+MERGED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:9:5-28:19
+MERGED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:9:5-28:19
+MERGED from [com.facebook.react:react-native:0.59.9] /home/monresto/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/e7adbd1604207066d008d1551e1f5ba5/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.9] /home/monresto/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/e7adbd1604207066d008d1551e1f5ba5/AndroidManifest.xml:11:5-20
+MERGED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:49:5-105:19
+MERGED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:49:5-105:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2e7e9fde5e8887d2adf666fe69c52061/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2e7e9fde5e8887d2adf666fe69c52061/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8fdb5220af52c8145a09350cf4fdf068/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8fdb5220af52c8145a09350cf4fdf068/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/f1d13a379b0a918df7146056382a8b07/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/f1d13a379b0a918df7146056382a8b07/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/d014f58f761dd0f82d5e3d1b94c0e69a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/d014f58f761dd0f82d5e3d1b94c0e69a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/059adda9079252954ff3d88c143e9f72/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/059adda9079252954ff3d88c143e9f72/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/72c75b77106ed32a328efeb4cb819269/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/72c75b77106ed32a328efeb4cb819269/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/0aa528d2617e2debf7755db9bd66305d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/0aa528d2617e2debf7755db9bd66305d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/543f83c8d8e1f06aa0ca52966f40dd7e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/543f83c8d8e1f06aa0ca52966f40dd7e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/29be3bc6a36ad90c73a5dbee2cf1b509/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/29be3bc6a36ad90c73a5dbee2cf1b509/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61b6d1a52ea01908e6ccf81d9bf4d424/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61b6d1a52ea01908e6ccf81d9bf4d424/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/035e1211a3d5bb3b1d40255a5c5d7628/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/035e1211a3d5bb3b1d40255a5c5d7628/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/e2dc62073a9866f3805cc33fdf50555a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/e2dc62073a9866f3805cc33fdf50555a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/884a69573e262d41e39aad1da51ac839/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/884a69573e262d41e39aad1da51ac839/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/65ed5294b2bde2fe0c881385d191cf87/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/65ed5294b2bde2fe0c881385d191cf87/AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2e7e9fde5e8887d2adf666fe69c52061/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:11:7-39
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:11:7-39
+	tools:ignore
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:13:7-52
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:13:7-52
+	tools:targetApi
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:12:7-41
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:12:7-41
+	android:allowBackup
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:14:7-34
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:14:7-34
+	android:theme
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:15:7-38
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:15:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:10:7-38
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:10:7-38
+activity#com.acidlabs.MainActivity
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:16:7-26:18
+	android:label
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:18:9-41
+	android:launchMode
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:21:9-39
+	android:windowSoftInputMode
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:20:9-51
+	android:configChanges
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:19:9-79
+	android:name
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:17:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:24:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:27:7-84
+	android:name
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml:27:17-81
+uses-sdk
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-onesignal] /home/monresto/Bureau/Acidlabs/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-onesignal] /home/monresto/Bureau/Acidlabs/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /home/monresto/Bureau/Acidlabs/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/monresto/Bureau/Acidlabs/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.9] /home/monresto/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/e7adbd1604207066d008d1551e1f5ba5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.9] /home/monresto/.gradle/caches/transforms-1/files-1.1/react-native-0.59.9.aar/e7adbd1604207066d008d1551e1f5ba5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6f78ab208b4adf09ed2ff2755bceb3c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/6f78ab208b4adf09ed2ff2755bceb3c8/AndroidManifest.xml:20:5-44
+MERGED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:5:5-44
+MERGED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d18ebf5b370dfb20fdf6b2bb7ab12a9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d18ebf5b370dfb20fdf6b2bb7ab12a9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/64a05cd325f5533d89381c7e65b3d974/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/64a05cd325f5533d89381c7e65b3d974/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2d81c7d439b9f8f06b9c372ceff74594/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2d81c7d439b9f8f06b9c372ceff74594/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f1e68a9e8e9667679b0a8e8d8abba0af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f1e68a9e8e9667679b0a8e8d8abba0af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/bab23077f8146a8cc611afbf18e878eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/bab23077f8146a8cc611afbf18e878eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c8ee77ceb60abf5ae0c07c67a733a50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c8ee77ceb60abf5ae0c07c67a733a50/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/790dd66558e1a96975446f460c0948ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/790dd66558e1a96975446f460c0948ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/394a544de6cf689b397214101fadfdb3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/394a544de6cf689b397214101fadfdb3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/fd7bb8cc13e9b3715f53ab21e41a7de9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/fd7bb8cc13e9b3715f53ab21e41a7de9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bf67959ab95bef09205bac2420d7c20e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bf67959ab95bef09205bac2420d7c20e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2df7c96cb88bc23868857fd14397b654/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2df7c96cb88bc23868857fd14397b654/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7912f513f7dd21567aa327355634d9c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7912f513f7dd21567aa327355634d9c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d623fc3d0107c757abf077747c22344f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d623fc3d0107c757abf077747c22344f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2e7e9fde5e8887d2adf666fe69c52061/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2e7e9fde5e8887d2adf666fe69c52061/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8fdb5220af52c8145a09350cf4fdf068/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8fdb5220af52c8145a09350cf4fdf068/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7f7a1c487dd4b2aa778573208f7a8fa7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/7f7a1c487dd4b2aa778573208f7a8fa7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c364ae57cd22622e6436578db8f3a36e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c364ae57cd22622e6436578db8f3a36e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8897f1a0f40562cc9645e473d3f36a3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/8897f1a0f40562cc9645e473d3f36a3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b302255c9d285c19dbb3b8010932e6f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/b302255c9d285c19dbb3b8010932e6f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/172e7c6d179a6edd15f848e29b69e835/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/172e7c6d179a6edd15f848e29b69e835/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5ca4d3ad0bf0c7f49c63bb86d4afdd3d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5ca4d3ad0bf0c7f49c63bb86d4afdd3d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b8aafa3d4c981f201785003cdfd532f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/b8aafa3d4c981f201785003cdfd532f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0f7581c53473d1a9392f07754807e444/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0f7581c53473d1a9392f07754807e444/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b7070e544a4e540c8438493f2bd4aae3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b7070e544a4e540c8438493f2bd4aae3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/aa191d6605d3c525b96050e6c81f1032/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/aa191d6605d3c525b96050e6c81f1032/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/6e417a0e8b067e97df8bcf654d5bc463/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/6e417a0e8b067e97df8bcf654d5bc463/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/eace9ad272091062627b74e9732c153c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/eace9ad272091062627b74e9732c153c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/749ae64c860e3dc4802c64eab60fcc70/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/749ae64c860e3dc4802c64eab60fcc70/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/5fd71a09403fc18a86404c064816676c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/5fd71a09403fc18a86404c064816676c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ea8dca206e1b2a1f8f8d6f89a11c7f8b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ea8dca206e1b2a1f8f8d6f89a11c7f8b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/f1d13a379b0a918df7146056382a8b07/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/f1d13a379b0a918df7146056382a8b07/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/d014f58f761dd0f82d5e3d1b94c0e69a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-12.0.1.aar/d014f58f761dd0f82d5e3d1b94c0e69a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/059adda9079252954ff3d88c143e9f72/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/059adda9079252954ff3d88c143e9f72/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/58e6eff1784b6a3c75b13ac05267bc37/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/monresto/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/58e6eff1784b6a3c75b13ac05267bc37/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/72c75b77106ed32a328efeb4cb819269/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/72c75b77106ed32a328efeb4cb819269/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/0aa528d2617e2debf7755db9bd66305d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/0aa528d2617e2debf7755db9bd66305d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/543f83c8d8e1f06aa0ca52966f40dd7e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/543f83c8d8e1f06aa0ca52966f40dd7e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/29be3bc6a36ad90c73a5dbee2cf1b509/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-location-license-12.0.1.aar/29be3bc6a36ad90c73a5dbee2cf1b509/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61b6d1a52ea01908e6ccf81d9bf4d424/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61b6d1a52ea01908e6ccf81d9bf4d424/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/035e1211a3d5bb3b1d40255a5c5d7628/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/035e1211a3d5bb3b1d40255a5c5d7628/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/e2dc62073a9866f3805cc33fdf50555a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/e2dc62073a9866f3805cc33fdf50555a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/884a69573e262d41e39aad1da51ac839/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/884a69573e262d41e39aad1da51ac839/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/65ed5294b2bde2fe0c881385d191cf87/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/65ed5294b2bde2fe0c881385d191cf87/AndroidManifest.xml:20:5-44
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/monresto/Bureau/Acidlabs/android/app/src/debug/AndroidManifest.xml:5:22-75
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:8:5-10:47
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:28:5-30:47
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:9:9-63
+permission#com.acidlabs.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:8:5-10:47
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:28:5-30:47
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:9:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:32:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:12:22-76
+uses-permission#com.acidlabs.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:32:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:12:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:18:5-82
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:18:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:19:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:19:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:24:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:30:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:32:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:32:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:33:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:33:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:34:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:35:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:35:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:36:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:36:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:37:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:37:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:38:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:38:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:39:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:39:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:40:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:40:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:41:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:41:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:42:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:42:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:43:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:43:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:44:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:44:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:45:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:45:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:46:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:46:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:47:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:47:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:50:9-52:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:52:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:51:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:54:9-56:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:56:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:55:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:58:9-68:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:60:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:59:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:63:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.acidlabs
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:63:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:64:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:64:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:66:27-58
+category#com.acidlabs
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:66:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:69:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:69:19-74
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:71:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:71:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:72:9-74:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:74:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:73:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:75:9-77:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:77:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:76:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:78:9-80:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:80:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:79:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:81:9-83:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:83:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:82:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:84:9-86:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:86:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:85:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:88:9-90:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:90:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:89:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:92:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:92:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:94:9-99:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:94:19-62
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:96:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:96:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:97:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:100:9-104:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:100:19-63
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:101:13-103:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:102:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.8] /home/monresto/.gradle/caches/transforms-1/files-1.1/OneSignal-3.10.8.aar/4febed8208fe2464fbe88bff4b742f49/AndroidManifest.xml:102:25-81
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/ac86157411e13ad4d3a4bc523da5198f/AndroidManifest.xml:32:25-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/059adda9079252954ff3d88c143e9f72/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/059adda9079252954ff3d88c143e9f72/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/059adda9079252954ff3d88c143e9f72/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/059adda9079252954ff3d88c143e9f72/AndroidManifest.xml:24:13-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:36:13-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/c83bb713545c0127402a782ecf989d3c/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/30f92adb40985a09f188ec5d4658d8e8/AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/0aa528d2617e2debf7755db9bd66305d/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/0aa528d2617e2debf7755db9bd66305d/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] /home/monresto/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/0aa528d2617e2debf7755db9bd66305d/AndroidManifest.xml:24:13-58

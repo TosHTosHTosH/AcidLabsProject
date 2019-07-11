@@ -1,0 +1,84 @@
+import React,{Component} from 'react';
+import { Text, TouchableOpacity } from 'react-native';
+
+class Button extends Component{
+    state={
+        toggle:false,
+    }
+    _onPress(){
+        const newState=this.state.toggle;
+        this.setState({toggle:newState})
+        this.props.onStateChange && this.props.onStateChange(newState)
+    }
+    render(){
+const {toggle} =this.state;
+
+const buttonBg=  toggle? "dodgerblue":"white";
+const textColor=  toggle? "white":"black";
+        return (
+            <TouchableOpacity onPress={()=>this._onPress()} style={styles.ButtonStyle}>
+                <Text style={styles.TextStyle}>
+                    {this.props.children}
+                </Text>
+            </TouchableOpacity>
+        );
+    }
+};
+   
+
+const styles = {
+    ButtonStyle: {
+        width: 200,  
+    
+        alignItems: 'stretch',
+        backgroundColor: buttonBg,
+        borderRadius: 5,
+        borderWidth: 1,
+        borderColor: 'dodgerblue',
+        marginLeft: 57,
+        
+        marginRight: 10
+    },
+    TextStyle: {
+        alignSelf: 'center',
+        color: '#f5fffa',
+        fontSize: 16,
+        fontWeight: '600',
+        paddingTop: 11,
+        paddingBottom: 11
+    }
+}
+
+
+
+export default Button;
+--------------------
+
+import React,{Component} from 'react';
+import { Platform,View,Button } from 'react-native';
+export default class testButton extends Component {
+    constructor(props) {
+        super(props);
+      
+        this.state = {
+          buttonColor: 'red'// default button color goes here
+        };
+      }
+     
+    render() {
+        onButtonPress =() => {
+            this.setState({ buttonColor: 'dodgerblue' }); 
+          }
+
+  
+    return (
+      <View style={{alignItems:'center',marginTop:10}}>      
+        <Button 
+        title="Press me!"
+        color={this.state.buttonColor}
+        onPress={onButtonPress}  
+        />
+      </View>
+    );
+   }
+  }
