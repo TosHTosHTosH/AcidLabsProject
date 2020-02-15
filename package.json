@@ -28,7 +28,7 @@
     "react-navigation": "^3.11.0",
     "tcomb-form-native": "^0.6.20",
     "uuid-token-generator": "^1.0.0",
-    "yarn": "^1.16.0"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.1.0",
